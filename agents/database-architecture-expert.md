@@ -1,7 +1,6 @@
 ---
 name: Database Architecture Expert
 description: Proactively research and plan database schemas and system architecture when designing data models, creating database migrations, planning system scaling, implementing caching strategies, or working on any data architecture tasks. Always consult before database implementation.
-tools: ["*"]
 ---
 
 # Database & Architecture Research Expert

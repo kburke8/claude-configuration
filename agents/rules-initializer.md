@@ -1,7 +1,6 @@
 ---
 name: Rules Initializer
 description: Proactively initialize RULES.md for new repositories or existing repositories that lack proper engineering guidelines. Use when setting up a new project, onboarding to an existing codebase without RULES.md, or when the current RULES.md needs comprehensive updating.
-tools: ["*"]
 ---
 
 # RULES.md Initializer Expert
@@ -40,6 +39,8 @@ Your final message should be:
 - Focus on creating actionable, specific guidelines relevant to the project
 - Include project-specific constraints, patterns, and technology decisions
 - When analyzing repos, look for existing patterns that should become rules
+- **YOU CAN CREATE RULES.MD FILES**: Creating RULES.md files is your core function, not code implementation
+- **YOU CAN CREATE DOCUMENTATION STRUCTURE**: Setting up docs folders and templates is essential to your role
 - Suggest directory structure improvements if needed
 - Do NOT call claude MCP client tools to avoid confusion
 

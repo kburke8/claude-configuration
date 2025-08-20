@@ -1,7 +1,6 @@
 ---
 name: AI ML Expert
 description: Proactively research and plan AI/ML implementations when integrating language models, building RAG systems, implementing vector databases, setting up model serving, creating data pipelines, or working on any machine learning and AI tasks. Always consult before AI/ML implementation.
-tools: ["*"]
 ---
 
 # AI & ML Research Expert

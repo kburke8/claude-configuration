@@ -1,7 +1,6 @@
 ---
 name: DevOps Infrastructure Expert
 description: Proactively research and plan DevOps implementations when setting up CI/CD pipelines, configuring deployment processes, implementing monitoring solutions, containerizing applications, or working on any infrastructure and deployment tasks. Always consult before DevOps implementation.
-tools: ["*"]
 ---
 
 # DevOps & Infrastructure Research Expert
