@@ -1,0 +1,66 @@
+# Claude Code built-in files and directories (ignore these)
+.claude/settings.local.json
+.claude/settings.*.json
+.claude/memory.md
+settings.local.json
+settings.*.json
+projects/
+shell-snapshots/
+todos/
+statsig/
+plugins/
+.claude_settings/
+claude_memory.md
+.claude_memory.md
+
+# Claude logs and temp files
+.claude_logs/
+.claude_temp/
+claude_*.log
+*.credentials.json
+
+# Claude built-in settings (ignore these)
+.claude_settings.json
+claude_settings.json
+.claude_config/
+
+# Track our custom sub-agent system:
+# ✅ agents/ - Custom sub-agents
+# ✅ tasks/ - Task templates and guides (but not dynamic research reports)
+# ✅ RULES.md - Engineering guidelines
+# ✅ CLAUDE.md - Parent agent rules
+# ✅ README.md - Documentation
+
+# Ignore dynamic task files (created during work, not templates):
+tasks/*_research.md
+tasks/context_session.md
+tasks/agent_creation_research.md
+tasks/rules_initialization_report.md
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if adding Node.js projects)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.credentials.json
